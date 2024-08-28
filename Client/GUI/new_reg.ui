@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>new_reg</class>
+ <widget class="QWidget" name="new_reg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#new_reg {
+    background-image: url(:/img/bg__3.png);  /* 设置背景图片 */
+    font-family: &quot;Arial&quot;;  /* 设置字体为 Arial */
+    font-size: 14px;  /* 设置字体大小 */
+    font-weight: bold;  /* 设置字体加粗 */
+}
+
+QWidget#widget {
+    background-color: rgba(255, 255, 255, 0.2);  /* 设置背景颜色，白色，20%不透明度 */
+    font-family: &quot;Times New Roman&quot;;  /* 设置字体为 Times New Roman */
+    font-size: 12px;  /* 设置字体大小 */
+    color: black;  /* 设置字体颜色 */
+}
+
+QTextEdit#textEdit {
+    background-color: rgba(255, 255, 255, 0.2);  /* 设置背景颜色，白色，20%不透明度 */
+    font-family: &quot;Courier New&quot;;  /* 设置字体为 Courier New */
+    font-size: 14px;  /* 设置字体大小 */
+    color: blue;  /* 设置字体颜色 */
+}
+</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(255, 255, 255,0);</string>
+   </property>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>180</y>
+      <width>141</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/button.png</normaloff>:/img/button.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>200</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>50</y>
+      <width>271</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>
